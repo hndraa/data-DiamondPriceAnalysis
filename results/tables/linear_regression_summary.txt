@@ -1,0 +1,21 @@
+Simple linear regression: price ~ carat
+
+
+Call:
+lm(formula = price ~ carat, data = diamonds_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-18585.3   -804.8    -18.9    537.4  12731.7 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2256.36      13.06  -172.8   <2e-16 ***
+carat        7756.43      14.07   551.4   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1549 on 53938 degrees of freedom
+Multiple R-squared:  0.8493,	Adjusted R-squared:  0.8493 
+F-statistic: 3.041e+05 on 1 and 53938 DF,  p-value: < 2.2e-16
+

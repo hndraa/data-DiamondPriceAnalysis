@@ -1,0 +1,14 @@
+Pearson correlation between carat and price
+
+
+	Pearson's product-moment correlation
+
+data:  diamonds_data$carat and diamonds_data$price
+t = 551.41, df = 53938, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.9203098 0.9228530
+sample estimates:
+      cor 
+0.9215913 
+
