@@ -152,7 +152,7 @@ The negative intercept is a mathematical result of fitting the line and should n
 2. Open the project directory.
 
    ```bash
-   cd diamond_price_analysis_r
+   cd data-DiamondPriceAnalysis
    ```
 
 3. Open `diamond_price_analysis_r.Rproj` in RStudio.
